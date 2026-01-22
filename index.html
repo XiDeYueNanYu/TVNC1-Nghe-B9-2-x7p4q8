@@ -27,7 +27,7 @@
             display: flex; 
             align-items: center; 
             justify-content: center; 
-            font-size: clamp(40px, 5vw, 60px);
+            font-size: clamp(40px, 5vw, 30px);
             font-weight: bold;
         }
         #contactBox { 
@@ -42,7 +42,7 @@
             align-items: center; 
             justify-content: left; 
             padding-left: 20px;
-            font-size: clamp(16px, 2vw, 20px); 
+            font-size: clamp(16px, 2vw, 18px); 
             font-weight: bold;
         }
         #instructionBox { 
@@ -57,7 +57,7 @@
             align-items: center; 
             justify-content: left; 
             padding-left: 20px;
-            font-size: clamp(16px, 2vw, 20px); 
+            font-size: clamp(16px, 2vw, 18px); 
             font-weight: bold;
         }
         #controls { 
@@ -68,7 +68,7 @@
             width: 95%;
             max-width: 800px; /* Giới hạn chiều rộng tối đa */
             background: #f7fbf3;
-                        border: 3px solid #f7fbf3;                        
+                        border: 3px solid   #f7fbf3;                        
             padding: 10px 0; 
            /* box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); */
             z-index: 1000; 
@@ -80,14 +80,14 @@
             align-items: center;
         }
         button { 
-            padding: 8px 8px; 
+            padding: 5px 5px; 
             margin: 0 5px; 
             cursor: pointer; 
             border: 2px solid #85ae5f; 
             background: #85ae5f; /*192332*/
                         box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
             color: #fffbef; 
-            font-size: 28px; 
+            font-size: 18px; 
             border-radius: 5px; 
         }
         #sentenceNumber { 
@@ -119,7 +119,7 @@
         #indicator { 
             width: 95%;
                         max-width: 700px; 
-            min-height: 50px; 
+            min-height: 30px; 
             margin: 10px auto; 
                         padding: 5px;
             border: 3px solid #fed16a; 
@@ -144,7 +144,7 @@
             background: #ffffff; /*E6EDD9*/
             color: #000000;
                         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-            font-size: 30px;
+            font-size: 25px;
             text-align: left;
             cursor: pointer;
             border-radius: 5px;
@@ -546,7 +546,6 @@ const sentences = [
         ]
     }
 ];
-
 
         let currentIndex = 0;
         let isFreeMode = true;
